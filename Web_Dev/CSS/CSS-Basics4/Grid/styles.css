@@ -4,7 +4,7 @@
     border: 3x solid black;
     display: grid;
 
-    grid-template-columns: 150px 1fr 1fr;
+    grid-template-columns: 150px 1fr 1fr 150px;
     grid-template-rows: 30px 1fr 30px;
 
     gap: 3px;
