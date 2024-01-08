@@ -441,3 +441,58 @@ a{
 .project-card:hover .project-content{
     transform: scale(1.1);
 }
+
+#project1{
+    background-image: url(./images/projects/Project1.png);
+}
+
+#project2{
+    margin: 120px;
+    background-image: url(./images/projects/Project2.png);
+}
+
+#project3{
+    background-image: url(./images/projects/Project3.png);
+}
+
+#project4{
+    margin-left: 120px;
+    background-image: url(./images/projects/Project4.png);
+}
+
+.skills-container{
+    position: relative;
+    display: flex;
+    padding: 5rem;
+    margin: 10rem auto;
+    gap: 30px;
+}
+
+.skill-container-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-container-right{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    position: relative;
+    gap: 2rem;
+}
+
+.skill-fade-text{
+    position: absolute;
+    font-size: 15rem;
+    font-style: bold;
+    color: rgb(231, 231, 231);
+    bottom: -34.5%;
+    right: -13%;
+    user-select: none;
+    /* overflow-y: hidden; */
+}
+
+.blob-style{
+    position: absolute;
+}
