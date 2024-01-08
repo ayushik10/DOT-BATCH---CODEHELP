@@ -295,7 +295,7 @@ a{
 }
 
 .page-header{
-    color:  #e84949;
+    color: #e84949;
     font-size: 90px;
     text-align: center;
     padding-top: 30px;
@@ -356,6 +356,11 @@ a{
     font-weight: 600;
     color: white;
     z-index: 10;
+    display: none;
+}
+
+.project-card:hover .project-number{
+    display: block;
 }
 
 .project-number-right{
@@ -416,6 +421,7 @@ a{
     display: flex;
     gap: 0.9rem;
     align-items: center;
+    transition: all 1s;
 }
 
 .btn-project:hover{
@@ -426,4 +432,12 @@ a{
     cursor: pointer;
     color: white;
     font-size: 35px;
+}
+
+.icon:hover{
+    color: #e84949;
+}
+
+.project-card:hover .project-content{
+    transform: scale(1.1);
 }
