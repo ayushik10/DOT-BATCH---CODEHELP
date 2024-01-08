@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     scroll-behavior: smooth;
 }
 
@@ -82,7 +82,7 @@ a{
     font-size: 7rem;
     color: rgb(231, 231, 231);
 
-    bottom: -16%;
+    bottom: -12%;
     left: -5%;
     font-weight: bold;
     transition: all 3s;
@@ -484,15 +484,52 @@ a{
 
 .skill-fade-text{
     position: absolute;
-    font-size: 15rem;
-    font-style: bold;
+    font-size: 14rem;
+    font-weight: bold;
     color: rgb(231, 231, 231);
     bottom: -34.5%;
-    right: -13%;
-    user-select: none;
-    /* overflow-y: hidden; */
+    right: -5%;
+    user-select: none;    
 }
 
 .blob-style{
     position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -5;
+    transform: translate(-50%, -50%);
+    animation: blobAnimate 3s linear infinite;
+}
+
+@keyframes blobAnimate{
+    50%{
+        top: 54%;
+        left: 46%;
+    }
+}
+
+.skills-logo{
+    width: 90px;
+    transition: all 0.5s;
+}
+
+.skills-logo:hover{
+    transform: scale(1.2);
+}
+
+.skill-heading{
+    font-size: 50px;
+    font-style: bold;
+    color: #e84949;
+    line-height: 50px;
+}
+
+.caps{
+    font-size: 90px;
+}
+
+.skill-subheading p{
+    margin-top: 1rem;
+    width: 85%;
+    text-align: justify;
 }
