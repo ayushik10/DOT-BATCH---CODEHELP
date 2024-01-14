@@ -1,2 +1,2 @@
 # WEB DEV
-Web Development 
+Web Development Course
